@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<robot name="limo_four_diff"
+    xmlns:xacro="http://ros.org/wiki/xacro">
+    <xacro:include filename="$(find for_open_scout)/urdf/limo_four_diff_robot.gazebo" />
+
+    <xacro:include filename="$(find for_open_scout)/urdf/limo_sensors.gazebo" />
+    <xacro:include filename="$(find for_open_scout)/urdf/limo_sensors.xacro" />
+</robot>
